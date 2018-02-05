@@ -1,0 +1,82 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 100%;
+    background-color: #c5c6c7;
+ 
+}
+.banner {
+    text-align: center;
+    padding: 3em;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin: inherit;
+    background-color: #1f2833;
+    color: #ffffff;
+}
+section{
+    font-family: 'Merriweather', serif;
+
+}
+h3{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: inherit;
+}
+header img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+.ulNav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #45a29e;
+}
+.liNav {
+    float: left;
+}
+
+.aNav{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+.column {
+    float: left;
+    width: 30%;
+    font-family: 'Merriweather', serif;
+    padding: 1%;
+
+}
+.row:after {
+    content: "";
+    display: block;
+    clear: both;
+    overflow: auto;
+}
+footer ul{
+    padding: .5em;
+    clear: left;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+    color: #151515;
+}
+
+section img{
+    width: 70%;
+    
+    
+}
+.map {
+    width: 100%;
+}
+
+
