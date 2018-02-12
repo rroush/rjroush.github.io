@@ -29,18 +29,18 @@ header img {
     width: 25%;
     height: auto;
 }
-.ulNav {
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #45a29e;
 }
-.liNav {
+header li {
     float: left;
 }
 
-.aNav{
+header a{
     display: block;
     color: #ffffff;
     text-align: center;
