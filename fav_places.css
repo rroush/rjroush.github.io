@@ -66,6 +66,9 @@ header li {
     list-style: none;
     background: #45a29e;
     padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .little_nav li{
     color: #1c1c1c;
