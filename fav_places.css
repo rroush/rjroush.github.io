@@ -30,10 +30,9 @@
 body {
     box-sizing: border-box;
     background-color: #c5c6c7;
-    max-width: 1140px;
-	margin: auto;
+    max-width: 100%;
 }
-section ul li{display: unset;}
+section ul li{display: block;}
 section ul li:nth-child(2) {
     display: none;
 }
@@ -151,17 +150,17 @@ a.nav_button{
     
     a.nav_button{ display: none}
     .little_nav{display:none}
-    .big_nav{ display: unset}
-    header img, h3 {display: unset;} 
-    .col-4{display:unset;}
+    header h3 {display: block;} 
+    header img{ display: inline}
+    .col-4{display:block;}
     .img2{display: none;}
-    .sub_info{display: unset;} 
-    section ul li{display: unset;}
+    .sub_info{display: block;} 
+    section ul li{display: block;}
     section ul li:nth-child(2) {
-    display: unset;
+    display: block;
 }
 section ul li:nth-child(3) {
-    display: unset;
+    display: block;
 }
     
 
@@ -174,7 +173,7 @@ section ul li:nth-child(3) {
     font-family: 'Merriweather', serif;
     }
     p:last-child{
-        display: unset;
+        display: block;
         background: #ffffff;
         display: block;
     }
@@ -210,18 +209,17 @@ section ul li:nth-child(3) {
     
      a.nav_button{display: none}
     .little_nav{display:none}
-    .big_nav{display: unset}
-    header h3 {display: unset;}
-    .col-4{display:unset;}
-    .img2{display: unset;}
-    .sub_info{display: unset;}
-    ol li{display: unset;}
-section ul li{display: unset;}
+    header h3 {display: block;}
+    .col-4{display:block;}
+    .img2{display: inline;}
+    .sub_info{display: block;}
+    ol li{display: block;}
+section ul li{display: block;}
 section ul li:nth-child(2) {
-    display: unset;
+    display: block;
 }
 section ul li:nth-child(3) {
-    display: unset;
+    display: block;
 }
     
     .big_nav{
@@ -233,7 +231,7 @@ section ul li:nth-child(3) {
     font-family: 'Merriweather', serif;
     }
     p:last-child{
-        display: unset;
+        display: block;
         background: #ffffff;
         display: block;
     }
@@ -263,4 +261,3 @@ section ul li:nth-child(3) {
 .col-d-12 {width: 100%;}
 
 }
-
