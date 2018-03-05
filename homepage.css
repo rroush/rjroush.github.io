@@ -1,0 +1,160 @@
+body {
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 100%;
+    background-color: #c5c6c7;
+ 
+}
+.banner {
+    text-align: center;
+    padding: 3em;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin: inherit;
+    background-color: #1f2833;
+    color: #ffffff;
+}
+section{
+    font-family: 'Merriweather', serif;
+    align-content: center;
+    padding: 1%;
+}
+h3{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 1.3em;
+    text-align: center;
+    margin: inherit;
+}
+header img {
+    float: right;
+    width: 25%;
+    height: auto;
+}
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #45a29e;
+}
+header li {
+    float: left;
+}
+
+header a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+}
+footer ul{
+    padding: 1em;
+    clear: left;
+    text-align: center;
+    list-style-type: none;
+    font-family: 'Merriweather', serif;
+    color: #151515;
+
+}
+
+section img{
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;}
+
+
+/** Float ALL the column classes **/
+
+[class*="col-"] {
+    float: left;  }
+
+
+/** TO CONTAIN A 12-COLUMN SUM IN A SINGLE ROW  **/
+
+.row:after {content: ""; clear: both; display: block;}
+
+.big_nav{display: none}
+header img, h2 {display: none;}
+.sub_info{ display:none}
+dd>img {display: none;}
+
+.little_nav ul{
+    list-style: none;
+    background: #45a29e;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.little_nav li{
+    color: #1c1c1c;
+    display: inline;
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 1em;
+    height: 2em;
+    border-bottom: 1px;
+
+}
+h2, h4{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    text-align: center;
+    margin: inherit;
+}
+
+/** TO TRIGGER DESKTOP VIEW AND SET DESKTOP COLUMN WIDTHS**/
+
+@media screen and (min-width: 1025px){
+    
+    .little_nav{display:none}
+    .big_nav{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    }
+    header h2 {display: block;} 
+    header img{ display: inline}
+    .sub_info{display: block;} 
+    dd>img {display: inline;}
+    h3 {font-size: 2em;}
+    .me {width: 20%;}
+    h4 {font-size: 1.5em;}
+    
+.col-d-1 {width: 8.33%;}
+
+.col-d-2 {width: 16.66%;}
+
+.col-d-3 {width: 25%;}
+
+.col-d-4 {width: 33.33%;}
+
+.col-d-5 {width: 41.66%;}
+
+.col-d-6 {width: 50%;}
+
+.col-d-7 {width: 58.33%;}
+
+.col-d-8 {width: 66.66%;}
+
+.col-d-9 {width: 75%;}
+
+.col-d-10 {width: 83.33%;}
+
+.col-d-11 {width: 91.66%;}
+
+.col-d-12 {width: 100%;}
+
+}
